@@ -1,4 +1,4 @@
-.places-paragraph { 
+.places__paragraph { 
     border: 1px solid #ffffff;
     margin: 0;
     width: fit-content; 
@@ -8,7 +8,7 @@
     font-weight: 400;
  }
 
- .places-paragraph:first-child {
+ .places__paragraph:first-child {
     margin-bottom: 0;
     /* margin-top: 0; */
  }

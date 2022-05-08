@@ -1,6 +1,5 @@
-.places-website { 
+.places__website { 
     border: 1px solid #fff;
-    grid-area: places-website;
     text-decoration: none;
     color: #fff;
     width: fit-content;
@@ -9,6 +8,6 @@
     align-self: end;
  }
 
- .places-website:hover {
+ .places__website:hover {
      text-decoration: underline;
  }

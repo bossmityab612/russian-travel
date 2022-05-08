@@ -30,14 +30,12 @@
 @import url('../blocks/intro/__list/_item/intro__list_item.css');
 
 /* ------------------Фото гриды------------------- */
-@import url('../blocks/photo-grid/photo-grid.css');
-@import url('../blocks/photo-grid/_item/photo-grid_item.css');
 
 /* --------------Блок "Места"------------ */
 @import url('../blocks/places/places.css');
 @import url('../blocks/places/__item/places__item.css');
-@import url('../blocks/places/places-title.css');
-@import url('../blocks/places/places-image.css');
-@import url('../blocks/places/places-website.css');
+@import url('../blocks/places/__title/places__title.css');
+@import url('../blocks/places/__image/places__image.css');
+@import url('../blocks/places/__website/places__website.css');
 @import url('../blocks/places/__description/places__description.css');
-@import url('../blocks/places/places-paragraph.css');
+@import url('../blocks/places/__paragraph/places__paragraph.css');
