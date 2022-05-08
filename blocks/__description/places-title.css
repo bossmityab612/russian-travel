@@ -1,0 +1,13 @@
+.places-title {
+    border: 1px solid #fff;
+    margin: 0;
+    width: 460px;
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 76px;
+    grid-area: places-title;
+    width: fit-content;
+    height: fit-content;
+    justify-self: start;
+    align-self: end;
+}

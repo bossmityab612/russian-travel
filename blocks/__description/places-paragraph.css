@@ -1,0 +1,14 @@
+.places-paragraph { 
+    border: 1px solid #ffffff;
+    margin: 0;
+    width: fit-content; 
+    height: fit-content;
+    font-size: 18px;
+    line-height: 29.34px;
+    font-weight: 400;
+ }
+
+ .places-paragraph:first-child {
+    margin-bottom: 0;
+    /* margin-top: 0; */
+ }

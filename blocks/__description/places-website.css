@@ -1,0 +1,14 @@
+.places-website { 
+    border: 1px solid #fff;
+    grid-area: places-website;
+    text-decoration: none;
+    color: #fff;
+    width: fit-content;
+    height: fit-content;
+    justify-self: start;
+    align-self: end;
+ }
+
+ .places-website:hover {
+     text-decoration: underline;
+ }

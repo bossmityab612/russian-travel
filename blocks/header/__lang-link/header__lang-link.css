@@ -1,0 +1,13 @@
+.header__lang-link {
+    color: #fff;
+    text-decoration: none;  
+    font-size: 24px;
+}
+
+.header__lang-link:first-child {
+    margin-right: 5px;
+}
+
+.header__lang-link:hover {
+    text-decoration: underline;
+}
