@@ -34,9 +34,10 @@
 @import url('../blocks/photo-grid/_item/photo-grid_item.css');
 
 /* --------------Блок "Места"------------ */
-@import url('../blocks/__description/places-title.css');
-@import url('../blocks/__description/places.css');
-@import url('../blocks/__description/places__description.css');
-@import url('../blocks/__description/places-image.css');
-@import url('../blocks/__description/places-website.css');
-@import url('../blocks/__description/places-paragraph.css');
+@import url('../blocks/places/places.css');
+@import url('../blocks/places/__item/places__item.css');
+@import url('../blocks/places/places-title.css');
+@import url('../blocks/places/places-image.css');
+@import url('../blocks/places/places-website.css');
+@import url('../blocks/places/__description/places__description.css');
+@import url('../blocks/places/places-paragraph.css');
