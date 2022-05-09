@@ -8,7 +8,6 @@
     font-weight: 400;
  }
 
- .places__paragraph:first-child {
-    margin-bottom: 0;
-    /* margin-top: 0; */
+ .places__paragraph:last-child {
+    margin-top: 40px;
  }

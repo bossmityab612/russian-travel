@@ -1,5 +1,7 @@
 .places__website { 
     border: 1px solid #fff;
+    margin: 0 0 20px;
+    grid-area: places__website;
     text-decoration: none;
     color: #fff;
     width: fit-content;
@@ -9,5 +11,5 @@
  }
 
  .places__website:hover {
-     text-decoration: underline;
+    text-decoration: underline;
  }

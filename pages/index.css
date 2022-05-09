@@ -30,6 +30,8 @@
 @import url('../blocks/intro/__list/_item/intro__list_item.css');
 
 /* ------------------Фото гриды------------------- */
+@import url('../blocks/photo-grid/photo-grid.css');
+@import url('../blocks/photo-grid/__item/photo-grid__item.css');
 
 /* --------------Блок "Места"------------ */
 @import url('../blocks/places/places.css');
@@ -39,3 +41,7 @@
 @import url('../blocks/places/__website/places__website.css');
 @import url('../blocks/places/__description/places__description.css');
 @import url('../blocks/places/__paragraph/places__paragraph.css');
+
+/* --------------Блок "Байкал"--------------- */
+@import url('../blocks/baikal/baikal.css');
+@import url('../blocks/baikal/__image/baikal__image.css');

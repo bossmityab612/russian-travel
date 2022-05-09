@@ -1,0 +1,4 @@
+.places__description {
+    grid-area: places__description;
+    margin: 0;
+}
