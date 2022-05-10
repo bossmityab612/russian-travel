@@ -1,12 +1,12 @@
 .places__paragraph { 
-    margin: 0;
-    width: fit-content; 
-    height: fit-content;
-    font-size: 18px;
-    line-height: 29.34px;
-    font-weight: 400;
+   margin: 0;
+   width: fit-content; 
+   height: fit-content;
+   font-size: 18px;
+   line-height: 29.34px;
+   font-weight: 400;
  }
 
- .places__paragraph:last-child {
-    margin-top: 40px;
- }
+.places__paragraph:first-child {
+   margin-bottom: 40px;
+}

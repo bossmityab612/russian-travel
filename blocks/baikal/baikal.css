@@ -3,7 +3,26 @@
     color: #fff;
     width: 1184px;
     height: 740px;
-    text-align: center;  
-    vertical-align: middle;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.baikal::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .3);
+    z-index: -1;
+}
+
+.baikal:hover::before {
+    background-color: rgba(0, 0, 0, .7);
 }
