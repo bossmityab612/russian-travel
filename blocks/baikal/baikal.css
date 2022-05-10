@@ -1,5 +1,7 @@
 .baikal {
-    min-width: 1280px;
-    border: 5px solid #000;
+    max-width: 1184px;
+    max-height: 740px;
     text-align: center;
+    margin: 0 auto;
+    position: relative;
 }

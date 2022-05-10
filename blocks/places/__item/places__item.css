@@ -6,7 +6,8 @@
     align-items: stretch;
     display: grid;
     grid-auto-columns: 1fr;
-    gap: 0;
+    /* gap: 0; */
+    row-gap: 0;
     grid-template-areas: 
       "places__title places__website"
       "places__image places__description";

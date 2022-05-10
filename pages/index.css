@@ -45,3 +45,6 @@
 /* --------------Блок "Байкал"--------------- */
 @import url('../blocks/baikal/baikal.css');
 @import url('../blocks/baikal/__image/baikal__image.css');
+@import url('../blocks/baikal/__text/baikal__text.css');
+@import url('../blocks/baikal/__text/_top/baikal__text_top.css');
+@import url('../blocks/baikal/__text/_bottom/baikal__text_bottom.css');
