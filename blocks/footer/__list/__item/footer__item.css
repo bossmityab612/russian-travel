@@ -1,0 +1,14 @@
+.footer__item {
+    margin: 0 18px;
+    display: inline-block;
+    list-style: none;   
+    color: #fff;
+}
+
+.footer__item:last-child {
+    float: right;
+}
+
+.footer__item:first-child {
+    margin-left: 0;
+}
