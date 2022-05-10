@@ -1,7 +1,8 @@
 .baikal {
-    max-width: 1184px;
-    max-height: 740px;
+    background: url('../../../images/cover-trains.jpg') no-repeat center / cover;
+    color: #fff;
+    width: 1184px;
+    height: 740px;
     text-align: center;
     margin: 0 auto;
-    position: relative;
 }
