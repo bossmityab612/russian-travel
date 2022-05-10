@@ -1,8 +1,9 @@
 .baikal {
-    background: url('../../../images/cover-trains.jpg') no-repeat center / cover;
+    background: url('../../images/cover-trains.jpg') no-repeat center / cover;
     color: #fff;
     width: 1184px;
     height: 740px;
-    text-align: center;
+    text-align: center;  
+    vertical-align: middle;
     margin: 0 auto;
 }
