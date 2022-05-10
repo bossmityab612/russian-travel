@@ -1,8 +1,9 @@
 .lead {
+    /* border: 1px solid #fff; */
+    margin: 0 auto;
     margin: 56px auto 96px;
     width: 984px;
     align-items: center;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-rows: repeat(auto-fit, minmax(50px, 1fr));
 }
