@@ -2,6 +2,7 @@
      margin: 0 auto;
      background-color: #2A2C2F;
      font-family: 'Inter', sans-serif;
+     text-rendering: optimizeLegibility;
 }
 
 @media screen and (max-width: 1024px){

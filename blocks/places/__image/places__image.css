@@ -7,8 +7,8 @@
 
  @media screen and (max-width: 768px) {
     .places__image {
-        width: 340;
-        height: 340;
+        width: 340px;
+        height: 340px;
         grid-area: places__image;
         margin: 0;
     }

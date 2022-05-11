@@ -19,7 +19,8 @@
 @media screen and (max-width: 768px) {
     .header {
         padding: 28px auto;
-        max-width: 928px;
+        max-width: 720px;
+        margin: 0 auto;
         display: flex;
         flex-wrap: wrap;
     }
