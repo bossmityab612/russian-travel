@@ -2,7 +2,7 @@
     background: url('../../images/cover-trains.jpg') no-repeat center / cover;
     color: #fff;
     max-width: 1184px;
-    max-height: 740px;
+    min-height: 740px;
     margin: 0 auto;
     position: relative;
     z-index: 1;
