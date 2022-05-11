@@ -6,5 +6,7 @@
     .places {
         display: flex;
         flex-wrap: wrap;
+        max-width: 928px;
+        margin: 0 auto;
     }    
 }

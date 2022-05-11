@@ -1,5 +1,5 @@
 .places__website { 
-    margin: 0 0 20px;
+    margin: 0;
     grid-area: places__website;
     text-decoration: none;
     color: #fff;

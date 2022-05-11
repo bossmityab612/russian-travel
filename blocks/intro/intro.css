@@ -3,3 +3,17 @@
     margin: 92px auto 92px 176px;
     color: #fff;
 }
+
+@media screen and (max-width: 1024px) {
+    .intro {
+        margin: 92px auto 92px 48px;
+        min-width: 690px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro {
+        margin: 88px auto 88px 48px;
+        max-width: 720px;
+    }
+}

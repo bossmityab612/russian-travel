@@ -2,12 +2,14 @@
     margin: 0 18px;
     display: inline-block;
     list-style: none;   
-    padding: 92px auto 42px;
     color: #fff;
 }
 
 .footer__item:last-child {
     float: right;
+    margin: 0;
+    padding: 0;
+
 }
 
 .footer__item:first-child {

@@ -1,9 +1,25 @@
 .lead {
-    /* border: 1px solid #fff; */
     margin: 0 auto;
-    margin: 56px auto 96px;
-    width: 984px;
+    padding: 56px auto 96px;
+    max-width: 984px;
     align-items: center;
     display: grid;
     grid-template-rows: repeat(auto-fit, minmax(50px, 1fr));
+}
+
+@media screen and (max-width: 1024px) {
+    .lead {
+        max-width: 928px;
+        margin: 48px auto;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead {
+        max-width: 928px;
+        margin: 48px auto;
+        justify-content: center;
+    }
+    
 }

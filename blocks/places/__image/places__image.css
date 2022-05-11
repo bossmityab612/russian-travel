@@ -1,5 +1,6 @@
 .places__image { 
-    max-width: 460px;
+    min-width: 460px;
     max-height: 460px;
     grid-area: places__image;
+    margin: 0;
  }

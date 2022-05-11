@@ -4,13 +4,28 @@
     max-width: 1184px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 0.5em;
+    gap: 16px;
     justify-items: stretch;
 }
 
 @media screen and (max-width: 1024px) {
     .photo-grid {
+        max-width: 928px;
         display: flex;
+        gap: 14px;
         flex-wrap: wrap;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .photo-grid {
+        max-width: 928px;
+        display: flex;
+        gap: 14px;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        justify-content: space-between;
     }
 }

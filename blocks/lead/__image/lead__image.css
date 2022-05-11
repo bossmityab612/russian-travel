@@ -2,3 +2,18 @@
     margin: 0 auto;
 }
 
+@media screen and (max-width: 1024px) {
+    .lead__image {
+        max-width: 928px;
+        display: flex;
+        flex-wrap: wrap;
+    }  
+}
+
+@media screen and (max-width: 768px) {
+    .lead__image {
+        max-width: 768px;
+        display: flex;
+        flex-wrap: wrap;
+    }  
+}
