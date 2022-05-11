@@ -1,6 +1,4 @@
 .footer__list {
-    width: 1184px;
-    padding: 0;
-    margin: 92px auto 42px;
-
+    max-width: 1184px;
+    margin: 0;
 }

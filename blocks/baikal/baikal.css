@@ -1,11 +1,13 @@
 .baikal {
     background: url('../../images/cover-trains.jpg') no-repeat center / cover;
     color: #fff;
-    width: 1184px;
-    height: 740px;
+    min-width: 1184px;
+    min-height: 740px;
     margin: 0 auto;
     position: relative;
     z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .baikal::before {
@@ -22,4 +24,12 @@
 
 .baikal:hover::before {
     background-color: rgba(0, 0, 0, .7);
+}
+
+@media screen and (min-width: 1024px) {
+    .baikal {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
 }

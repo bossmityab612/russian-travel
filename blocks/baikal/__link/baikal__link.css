@@ -10,3 +10,11 @@
     flex-direction: column;
     justify-content: center;
 }
+
+@media screen and (max-width: 1024px) {
+    .baikal__link {
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

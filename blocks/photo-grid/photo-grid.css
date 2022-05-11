@@ -7,3 +7,10 @@
     gap: 0.5em;
     justify-items: stretch;
 }
+
+@media screen and (max-width: 1024px) {
+    .photo-grid {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
