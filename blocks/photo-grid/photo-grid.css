@@ -19,13 +19,13 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
     .photo-grid {
-        max-width: 928px;
+        max-width: 720px;
         display: flex;
-        gap: 14px;
+        gap: 16px;
         flex-wrap: wrap;
         margin: 0 auto;
-        justify-content: space-between;
+        /* justify-content: space-between; */
     }
 }
