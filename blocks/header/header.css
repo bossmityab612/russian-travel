@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 1024px) {
     .header {
-        margin: 28px auto;
+        padding: 28px auto;
         border: 1px solid #000;
         max-width: 928px;
         display: flex;

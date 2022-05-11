@@ -1,13 +1,11 @@
 .baikal {
     background: url('../../images/cover-trains.jpg') no-repeat center / cover;
     color: #fff;
-    min-width: 1184px;
-    min-height: 740px;
+    max-width: 1184px;
+    max-height: 740px;
     margin: 0 auto;
     position: relative;
     z-index: 1;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .baikal::before {
