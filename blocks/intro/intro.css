@@ -1,6 +1,7 @@
 .intro {
     width: 690px;
-    margin: 92px auto 92px 176px;
+    justify-content: center;
+    margin: 0 auto 92px 0;
     color: #fff;
 }
 

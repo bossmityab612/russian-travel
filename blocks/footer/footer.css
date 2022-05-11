@@ -1,15 +1,7 @@
 .footer {
-    border: 1px solid #2A2C2F;
     margin: 0;
+    padding: 92px 0 24px;
     position: relative;
-}
-
-@media screen and (max-width: 1024px) {
-    .footer {
-        display: flex;
-        flex-wrap: wrap;
-        margin: 0;
-    }
 }
 
 @media screen and (max-width: 768px) {
