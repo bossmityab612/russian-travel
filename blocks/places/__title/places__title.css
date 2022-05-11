@@ -15,10 +15,9 @@
 @media screen and (max-width: 768px) {
     .places__title {
         border: 1px solid red;
-        font-size: 42px;
+        font-size: 2.6em;
         line-height: 46px;
         font-weight: 900;
-        width: 340px;
-        height: 92px;
+        min-width: 340px;
     }
 }

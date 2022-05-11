@@ -4,7 +4,6 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 16px;
-    /* flex-wrap: wrap; */
     justify-items: stretch;
 }
 
@@ -15,7 +14,6 @@
         gap: 14px;
         flex-wrap: wrap;
         margin: 0 auto;
-        /* justify-content: space-between; */
     }
 }
 
