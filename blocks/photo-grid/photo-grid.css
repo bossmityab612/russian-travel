@@ -9,20 +9,15 @@
 
 @media screen and (max-width: 1024px) {
     .photo-grid {
+        grid-template-columns: repeat(3, 1fr);
         max-width: 928px;
-        display: flex;
         gap: 14px;
-        flex-wrap: wrap;
-        margin: 0 auto;
     }
 }
 
 @media screen and (max-width: 768px) {
     .photo-grid {
+        grid-template-columns: repeat(2, 1fr);
         max-width: 720px;
-        display: flex;
-        gap: 16px;
-        flex-wrap: wrap;
-        margin: 0 auto;
     }
 }

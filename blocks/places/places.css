@@ -1,11 +1,11 @@
 .places {
-    border: none;
+    border: 3px solid red;
+    margin: 0 auto;
+    max-width: 984px;
 }
 
 @media screen and (max-width: 1024px) {
     .places {
-        display: flex;
-        flex-wrap: wrap;
         max-width: 928px;
         margin: 0 auto;
     }    
@@ -13,10 +13,7 @@
 
 @media screen and (max-width: 768px) {
     .places {
-        display: flex;
-        flex-wrap: wrap;
         max-width: 720px;
         margin: 0 auto;
-        border: 1px solid #000;
     }    
 }

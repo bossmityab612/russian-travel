@@ -18,6 +18,6 @@
         font-size: 2.6em;
         line-height: 46px;
         font-weight: 900;
-        min-width: 340px;
+        max-width: 340px;
     }
 }

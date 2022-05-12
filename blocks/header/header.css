@@ -2,26 +2,17 @@
     margin: 0 auto;
     padding-top: 28px;
     max-width: 1184px;
-    display: flex;
-    flex-wrap: wrap;
     position: relative; 
 }
 
 @media screen and (max-width: 1024px) {
     .header {
-        padding: 28px auto;
         max-width: 928px;
-        display: flex;
-        flex-wrap: wrap;
     }
 }
 
 @media screen and (max-width: 768px) {
     .header {
-        padding: 28px auto;
         max-width: 720px;
-        margin: 0 auto;
-        display: flex;
-        flex-wrap: wrap;
     }
 }

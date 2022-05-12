@@ -1,5 +1,5 @@
 .intro {
-    width: 690px;
+    max-width: 690px;
     justify-content: center;
     margin: 0 auto 92px 0;
     color: #fff;
@@ -7,14 +7,13 @@
 
 @media screen and (max-width: 1024px) {
     .intro {
-        margin: 92px auto 92px 48px;
-        min-width: 690px;
+        max-width: 690px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .intro {
-        margin: 88px auto 88px 48px;
+        margin: 24px;
         max-width: 720px;
     }
 }
