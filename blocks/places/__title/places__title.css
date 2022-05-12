@@ -4,7 +4,7 @@
     grid-area: places__title;
     max-width: 460px;
     font-size: 72px;
-    font-weight: bold;
+    font-weight: 900;
     line-height: 76px;
     width: fit-content;
     height: fit-content;
@@ -14,10 +14,10 @@
 
 @media screen and (max-width: 768px) {
     .places__title {
-        border: 1px solid red;
-        font-size: 2.6em;
+        max-width: 340px;
+        border: 2px solid BLUE;
+        font-size: 42px;
         line-height: 46px;
         font-weight: 900;
-        max-width: 340px;
     }
 }
