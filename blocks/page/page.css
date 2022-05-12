@@ -30,13 +30,12 @@
      background-color: #2A2C2F;
      font-family: 'Inter' , sans-serif;
      text-rendering: optimizeLegibility;
+     max-width: 1280px;
 }
 
 @media screen and (max-width: 1024px){
      .page {
-          margin: 0 auto;
-          width: 100%;
-          min-width: 1024px;
+          max-width: 1024px;
      }
 }
 
@@ -44,6 +43,6 @@
      .page {
           margin: 0 auto;
           width: 100%;
-          min-width: 768px;
+          max-width: 768px;
      }
 }
