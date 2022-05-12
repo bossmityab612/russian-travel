@@ -17,3 +17,12 @@
         max-width: 720px;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .intro {
+        /* margin: 24px; */
+        border: 1px solid #000;
+        width: 100%;
+        
+    }
+}

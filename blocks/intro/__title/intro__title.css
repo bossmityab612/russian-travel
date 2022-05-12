@@ -4,3 +4,9 @@
     line-height: 58px;
     font-weight: 900;
 }
+
+@media screen and (max-width) {
+    .intro__title {
+        margin: 0;
+    }
+}

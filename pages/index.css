@@ -2,12 +2,12 @@
 @import url('../blocks/page/page.css');
 
 /* -------------Шрифты------------ */
-@import url('../fonts/Inter-Black.woff');
-@import url('../fonts/Inter-Black.woff2');
-@import url('../fonts/Inter-Bold.woff');
-@import url('../fonts/Inter-Bold.woff2');
-@import url('../fonts/Inter-Regular.woff');
-@import url('../fonts/Inter-Regular.woff2');
+@import url('../../fonts/Inter-Regular.woff');
+@import url('../../fonts/Inter-Regular.woff2');
+@import url('../../fonts/Inter-Bold.woff');
+@import url('../../fonts/Inter-Bold.woff2');
+@import url('../../fonts/Inter-Black.woff');
+@import url('../../fonts/Inter-Black.woff2');
 
 /* -------------Заголовок-------------- */
 
