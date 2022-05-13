@@ -1,23 +1,21 @@
 .places__paragraph { 
    margin: 0;
-   width: fit-content; 
-   height: fit-content;
    font-size: 18px;
    line-height: 29.34px;
    font-weight: 400;
+   width: 100%;
  }
 
 .places__paragraph:first-child {
    margin-bottom: 40px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
    .places__paragraph {
-    line-height: 26.08px;
-    font-size: 16px;
-   }    
-
-   .places__paragraph:first-child {
-      margin-bottom: 25px;
-   }
+      line-height: 26.08px;
+      font-size: 16px;
+      margin: 0;
+      width: 100%;
+   }   
 }
+

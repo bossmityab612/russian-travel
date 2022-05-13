@@ -1,12 +1,6 @@
 .places__description {
     grid-area: places__description;
     margin: 0;
-}
-
-@media screen and (max-width: 768px) {
-    .places__description {
-        max-width: 352px;
-        margin: 0;
-        word-break: break-all;
-    } 
+    width: 100%;
+    word-break: break-all;
 }
