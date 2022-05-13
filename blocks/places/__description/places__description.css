@@ -7,5 +7,6 @@
     .places__description {
         max-width: 352px;
         margin: 0;
+        word-break: break-all;
     } 
 }

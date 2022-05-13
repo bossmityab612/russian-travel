@@ -1,17 +1,22 @@
 .places__image { 
-    max-width: 460px;
-    max-height: 460px;
+    width: 100%;
     grid-area: places__image;
     width: fit-content;
     height: fit-content;
     margin: 0;
  }
 
- @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .places__image {
-        width: 340px;
-        height: 340px;
-        grid-area: places__image;
-        margin: 0;
+        max-width: 340px;
+        width: 100%;
+        /* max-height: 340px; */
     }
- }
+}
+
+@media screen and (max-width: 320px) {
+    .places__image {
+        width: 100%;
+        /* margin: 0; */
+    }
+}

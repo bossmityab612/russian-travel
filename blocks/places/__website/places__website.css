@@ -1,14 +1,19 @@
 .places__website { 
-    margin: 0;
-    grid-area: places__website;
-    text-decoration: none;
-    color: #fff;
-    width: fit-content;
-    height: fit-content;
-    justify-self: start;
-    align-self: end;
+   margin: 0;
+   grid-area: places__website;
+   text-decoration: none;
+   color: #fff;
+   width: fit-content;
+   height: fit-content;
+   justify-self: start;
+   align-self: end;
  }
 
  .places__website:hover {
-    text-decoration: underline;
+   text-decoration: underline;
  }
+
+ /* @media screen and (max-width: 320px) {
+       .places__website {
+       }
+ } */

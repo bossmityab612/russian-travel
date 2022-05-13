@@ -1,11 +1,13 @@
 .places__item {  
-  border: 1px solid red;
+  /* border: 1px solid red; */
   color: #fff;
   max-width: 984px;
+  /* width: 100%; */
+  /* min-height: 100%; */
   margin: 92px 0;
-  justify-content: start;
-  height: fit-content;
-  align-items: stretch;
+  justify-content: center;
+  /* height: fit-content; */
+  /* align-items: stretch; */
   display: grid;
   grid-auto-columns: 1fr;
   row-gap: 48px;
@@ -19,27 +21,28 @@
   margin-bottom: 92px;
 }
 
-/* @media screen and (max-width: 1024px) {
+@media screen and (max-width: 767px) {
   .places__item {
-    max-width: 720px;
-    column-gap: 28px;
-    margin: 88px 0;
+    flex-wrap: nowrap;
   }
+}
 
-  .places__item:last-child {
-    margin-bottom: 88px;
-  }
-} */
+@media screen and (max-width: 320px) {
+    .places__item {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: center;
+      /* width: 100%; */
+      min-width: 320px;
+      /* column-gap: 28px; */
+      row-gap: 32px;
+      margin: 88px 0;
+      align-items: center;
+    }
 
-@media screen and (max-width: 768px) {
-  /* .places__item {
-    max-width: 720px;
-    column-gap: 28px;
-    margin: 88px 0;
-  }
-
-  .places__item:last-child {
-    margin-bottom: 88px;
-  } */
+    .places__item:last-child {
+      margin-bottom: 88px;
+    }
 }
  

@@ -1,17 +1,27 @@
 .places {
-    border: 1px solid #000;
-    margin: 0;
+    /* border: 1px solid #000; */
+    margin: 0 auto;
     max-width: 984px;
+    /* width: 100%; */
+    word-wrap: break-word;
 }
 
-@media screen and (max-width: 1023px) {
+/* @media screen and (max-width: 1023px) {
     .places {
-        max-width: 720px;
+        max-width: 690px;
     }    
-}
+} */
 
 @media screen and (max-width: 767px) {
     .places {
-        max-width: 288px;
+        min-width: 288px;
+    }    
+}
+
+@media screen and (max-width: 320px) {
+    .places {
+        max-width: 320px;
+        flex-wrap: wrap;
+        width: 100%;
     }    
 }
