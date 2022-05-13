@@ -1,7 +1,6 @@
 .places__item {  
   color: #fff;
   max-width: 984px;
-  width: 100%;
   margin: 92px 0;
   justify-content: center;
   display: grid;
@@ -19,24 +18,14 @@
 
 @media screen and (max-width: 767px) {
   .places__item {
-    flex-wrap: wrap;
-    width: 100%;
-    column-gap: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    min-width: 320px;
+    row-gap: 32px;
+    align-items: flex-start;
+    align-self: none;
   }
-}
-
-@media screen and (max-width: 320px) {
-    .places__item {
-      /* width: 100%; */
-      min-width: 288px;
-      column-gap: 0;
-      grid-template-areas: 
-        "places__title" "places__website"
-        "places__image" "places__description";
-    }
-
-    .places__item:last-child {
-      margin-bottom: 88px;
-    }
 }
  

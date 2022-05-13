@@ -1,6 +1,8 @@
 .footer__item {
     margin-right: 18px;
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     list-style: none;   
     color: #fff;
 }
@@ -10,16 +12,6 @@
 }
 
 .footer__item:last-child {
-    float: right;
-    margin: 0;
-    padding: 0;
-}
-
-
-@media screen and (max-width: 1024px) {
-    .footer__item:last-child {
-        border: 1px solid red;
-        float: right;
-    }
+    align-self: end;;
 }
 

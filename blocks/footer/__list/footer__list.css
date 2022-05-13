@@ -1,14 +1,19 @@
 .footer__list {
     max-width: 1184px;
     margin: 0 auto;
+    width: 100%;
 }
 
-@media screen and (max-width: 1024px) {
+.footer__list:last-child {
+    align-self: end;
+}
+
+@media screen and (max-width: 1023px) {
     .footer__list {
         border: 1px solid #000;
         display: flex;
-        flex-wrap: wrap;
-        max-width: 928px;
+        /* max-width: 928px; */
+        width: 100%;
         padding: 0;
     } 
 }

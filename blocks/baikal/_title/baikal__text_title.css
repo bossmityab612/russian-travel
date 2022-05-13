@@ -5,3 +5,10 @@
     max-width: 560px;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 767px) {
+    .baikal__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+}

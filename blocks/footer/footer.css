@@ -2,12 +2,5 @@
     margin: 0;
     padding: 92px 0 24px;
     position: relative;
+    width: 100%;
 }
-
-@media screen and (max-width: 768px) {
-    .footer {
-        display: flex;
-        flex-wrap: wrap;
-        margin: 0;
-    }
- }
