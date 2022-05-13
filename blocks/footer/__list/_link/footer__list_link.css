@@ -1,8 +1,8 @@
-.footer__link {
+.footer__list_link {
     color: #fff;
     text-decoration: none;
 }
 
-.footer__link:hover {
+.footer__list_link:hover {
     opacity: .6;
 }
