@@ -1,0 +1,16 @@
+.places__website-block {
+    border: 1px solid Tomato;
+    width: 100%;
+    grid-area: places__website-block;
+    margin: 0;
+    padding: 0;
+    justify-self: start;
+    align-self: end;
+}
+
+@media screen and (max-width: 767px) {
+    .places__website-block {
+        width: 100%;
+    }
+    
+}

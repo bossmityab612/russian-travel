@@ -4,7 +4,7 @@
     max-width: 1184px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;    
 }
 
 @media screen and (max-width: 768px) {

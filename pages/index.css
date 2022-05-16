@@ -1,13 +1,7 @@
 @import url('../vendor/normalize.css'); /* -----Нормалайз----- */
 @import url('../blocks/page/page.css');
 
-/* -------------Шрифты------------ */
-@import url('../../fonts/Inter-Regular.woff');
-@import url('../../fonts/Inter-Regular.woff2');
-@import url('../../fonts/Inter-Bold.woff');
-@import url('../../fonts/Inter-Bold.woff2');
-@import url('../../fonts/Inter-Black.woff');
-@import url('../../fonts/Inter-Black.woff2');
+@import url('../fonts/inter-font.css'); /* -----Шрифты------ */
 
 /* -------------Заголовок-------------- */
 
@@ -40,7 +34,9 @@
 @import url('../blocks/places/__item/places__item.css');
 @import url('../blocks/places/__title/places__title.css');
 @import url('../blocks/places/__image/places__image.css');
-@import url('../blocks/places/__website/places__website.css');
+@import url('../blocks/places/__website-block/places__website-block.css');
+@import url('../blocks/places/__website-block/__url/places__url.css');
+@import url('../blocks/places/__website-block/__website/places__website.css');
 @import url('../blocks/places/__description/places__description.css');
 @import url('../blocks/places/__paragraph/places__paragraph.css');
 

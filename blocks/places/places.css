@@ -1,18 +1,25 @@
 .places {
-    margin: 0 auto;
+    border: 1px solid #000;
     max-width: 984px;
-    word-wrap: break-word;
+    min-width: 928px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1023px) {
+    .places {
+        max-width: 720px;
+    }
 }
 
 @media screen and (max-width: 767px) {
     .places {
-        min-width: 288px;
-    }    
+      padding: 0 24px;
+      margin: 0 auto;
+    }
 }
 
 @media screen and (max-width: 320px) {
     .places {
-        flex-wrap: wrap;
-        width: 100%;
-    }    
+      max-width: 100%;
+    }
 }

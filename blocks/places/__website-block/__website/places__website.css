@@ -1,0 +1,9 @@
+.places__website {
+  color: inherit;
+  text-decoration: none;
+  font: normal 400 12px/22px 'Inter';
+}
+
+.places__website:hover {
+    text-decoration: underline;
+}

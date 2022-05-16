@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 16px;
-    margin: 92px auto;
+    margin: 92px auto ;
     max-width: 1184px;
 }
 
@@ -11,6 +11,7 @@
         grid-template-columns: repeat(3, 1fr);
         max-width: 928px;
         gap: 14px;
+        margin: auto 48px;
     }
 }
 
@@ -18,11 +19,13 @@
     .photo-grid {
         grid-template-columns: repeat(2, 1fr);
         max-width: 720px;
+        margin: auto 24px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .photo-grid {
         grid-template-columns: repeat(1, 1fr);
+        margin: auto 16px;
     }
 }

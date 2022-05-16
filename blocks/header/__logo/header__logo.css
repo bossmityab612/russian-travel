@@ -1,4 +1,5 @@
 .header__logo {
+    /* border: 1px solid red; */
     max-width: 176px;
     margin: 0;
 }
@@ -6,5 +7,6 @@
 @media screen and (max-width: 320px) {
     .header__logo {
         max-width: 142px;
+        width: 100%;
     }
 }

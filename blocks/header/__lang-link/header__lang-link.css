@@ -2,6 +2,7 @@
     color: #fff;
     text-decoration: none;
     font-size: 24px;
+    margin: 0;
 }
 
 .header__lang-link:first-child {
@@ -18,5 +19,4 @@
         line-height: 20px;
         font-weight: 400;
     }
-    
 }

@@ -1,21 +1,15 @@
-.places__paragraph { 
+.places__paragraph {
+   border: 1px solid #000;
    margin: 0;
-   font-size: 18px;
-   line-height: 29.34px;
-   font-weight: 400;
-   width: 100%;
- }
+   font: normal 400 18px/29.34px 'Inter';
+}
 
-.places__paragraph:first-child {
-   margin-bottom: 40px;
+.places__paragraph:last-child {
+   margin-top: 26px;
 }
 
 @media screen and (max-width: 767px) {
    .places__paragraph {
-      line-height: 26.08px;
-      font-size: 16px;
-      margin: 0;
-      width: 100%;
+   font: normal 400 16px/26.08px 'Inter';
    }   
 }
-
