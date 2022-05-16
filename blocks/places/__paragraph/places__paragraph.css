@@ -1,15 +1,8 @@
 .places__paragraph {
-   border: 1px solid #000;
+   /* border: 1px solid #000; */
    margin: 0;
-   font: normal 400 18px/29.34px 'Inter';
 }
 
 .places__paragraph:last-child {
    margin-top: 26px;
-}
-
-@media screen and (max-width: 767px) {
-   .places__paragraph {
-   font: normal 400 16px/26.08px 'Inter';
-   }   
 }

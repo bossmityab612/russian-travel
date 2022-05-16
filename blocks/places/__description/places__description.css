@@ -1,14 +1,16 @@
 .places__description {
-    border: 1px solid red;
     grid-area: places__description;
     margin: 0;
     padding: 0;
     width: 100%;
+    /* border: 1px solid red; */
+    font: normal 400 18px/29.34px 'Inter';
 }
-
+ 
 @media screen and (max-width: 767px) {
     .places__description {
         padding: 0;
         width: 100%;
-    }
+        font: normal 400 16px/26.08px 'Inter';
+    }   
 }

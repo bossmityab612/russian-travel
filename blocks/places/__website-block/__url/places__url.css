@@ -1,7 +1,13 @@
 .places__url {
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     margin: 0 0 12px;
     color: #aaa;
     font: normal 400 12px/12px 'Inter';
     letter-spacing: 2px;
 }
+
+@media screen and (max-width: 320px) {
+    .places__url {
+        margin-bottom: 12px;
+    }
+  }
