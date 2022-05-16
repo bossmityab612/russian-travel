@@ -1,19 +1,19 @@
 .places {
     border: 1px solid #000;
     max-width: 984px;
-    min-width: 928px;
     margin: 0 auto;
+    padding: 92px 148px;
 }
 
 @media screen and (max-width: 1023px) {
     .places {
-        max-width: 720px;
+        padding: 92px 48px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .places {
-      padding: 0 24px;
+      padding: 88px 24px;
       margin: 0 auto;
     }
 }
@@ -21,5 +21,6 @@
 @media screen and (max-width: 320px) {
     .places {
       max-width: 100%;
+      padding: 64px 0;
     }
 }

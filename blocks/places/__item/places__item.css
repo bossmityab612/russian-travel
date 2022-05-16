@@ -9,16 +9,16 @@
       'places__image places__description';
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1023px) {
   .places__item {
+    padding: auto 20px;
     margin: 0;
     gap: 48px 28px;
-    /* max-width: 320px; */
     width: 100%;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .places__item {
     grid-template-areas: 
       'places__title' 'places__website-block'

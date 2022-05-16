@@ -8,6 +8,7 @@
 
 @media screen and (max-width: 767px) {
     .places__description {
+        padding: 0;
         width: 100%;
     }
 }
