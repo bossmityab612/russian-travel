@@ -2,7 +2,6 @@
   color: #fff;
   margin-bottom: 80px;
   width: 100%;
-  /* border: 1px solid SpringGreen; */
   display: grid;
   gap: 48px 40px;
   grid-template-areas: 
@@ -21,11 +20,12 @@
 @media screen and (max-width: 767px) {
   .places__item {
     grid-template-areas: 
-      'places__title' 'places__website-block'
-      'places__image' 'places__description';
+      'places__title'
+      'places__website-block'
+      'places__image'
+      'places__description';
     width: 100%;
     gap: 32px 0;
-    padding: 0 24px;
-    margin: 0;
+    margin-top: 64px;
   }
 }

@@ -1,5 +1,4 @@
 .places__title {
-    /* border: 1px solid DarkCyan; */
     margin: 0;
     max-width: 460px;
     grid-area: places__title;
@@ -9,13 +8,13 @@
 @media screen and (max-width: 1023px) {
     .places__title {
         font: normal 900 42px/46px 'Inter';
-        margin: 0;
     }
 }
 
 @media screen and (max-width: 767px) {
     .places__title {
         font: normal 900 32px/35px 'Inter';
-        margin: 0 auto;
+        margin: 0;
+        padding: 0 16px;
     }
 }
