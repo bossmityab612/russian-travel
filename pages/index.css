@@ -43,8 +43,10 @@
 /* --------------Блок "Байкал"--------------- */
 @import url('../blocks/baikal/baikal.css');
 @import url('../blocks/baikal/__link/baikal__link.css');
-@import url('../blocks/baikal/_title/baikal__text_title.css');
-@import url('../blocks/baikal/_subtitle/baikal__text_subtitle.css');
+@import url('../blocks/baikal/__text-block/baikal__text-block.css');
+@import url('../blocks/baikal/__text-block/_title/baikal__text-block_title.css');
+@import url('../blocks/baikal/__text-block/_subtitle/baikal__text-block_subtitle.css');
+@import url('../blocks/baikal/__image/baikal__image.css');
 
 /* ----------------Подвал-------------- */
 @import url('../blocks/footer/footer.css');

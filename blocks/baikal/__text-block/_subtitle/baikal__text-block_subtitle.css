@@ -1,4 +1,4 @@
-.baikal__subtitle {
+.baikal__text-block_subtitle {
     font-size: 18px;
     max-width: 360px;
     margin: 32px auto;
@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 320px) {
-    .baikal__subtitle {
+    .baikal__text-block_subtitle {
         font-size: 14px;
         line-height: 16px;
     }

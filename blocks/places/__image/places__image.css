@@ -3,15 +3,3 @@
     object-fit: cover;
     grid-area: places__image;
 }
-
-/* @media screen and (max-width: 1023px){
-    .places__image {
-        max-width: 1023px;
-    }    
-}
-
-@media screen and (max-width: 320px){
-    .places__image {
-        max-width: 320px;
-    }    
-} */

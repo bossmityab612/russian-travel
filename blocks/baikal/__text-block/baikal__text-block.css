@@ -1,0 +1,10 @@
+.baikal__text-block {
+    border: 1px solid #000;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    z-index: 3;
+    position: absolute;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+}
