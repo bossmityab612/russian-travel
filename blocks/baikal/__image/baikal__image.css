@@ -1,5 +1,7 @@
 .baikal__image {
-    max-width: 1184px;
-    z-index: 1;
     width: 100%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-self: stretch;
+    object-fit: cover
 }

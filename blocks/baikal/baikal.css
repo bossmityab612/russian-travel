@@ -1,39 +1,7 @@
 .baikal {
     display: block;
     padding: 0;
-    object-fit: contain;
-    background-repeat: no-repeat;
-    color: #fff;
-    align-items: center;
     max-width: 1184px;
-    min-height: 740px;
     margin: 0 auto;
     position: relative;
-    z-index: 1;
-    border: 3px solid red;
-}
-
-.baikal::before {
-    content: "";
-    object-fit: cover;
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, .3);
-    z-index: -1;
-}
-
-.baikal:hover::before {
-    background-color: rgba(0, 0, 0, .7);
-}
-
-@media screen and (max-width: 320px) {
-    .baikal {
-        width: 100%;
-        border: 1px solid green;
-        height: 100%;
-    }
 }
