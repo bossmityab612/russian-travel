@@ -1,5 +1,10 @@
 .places__paragraph {
    margin: 0;
+   font: 400 18px/29.34px 'Inter';
+}
+
+.places__paragraph:first-child {
+   margin-bottom: 27px;
 }
 
 @media screen and (max-width: 767px) {
@@ -11,7 +16,6 @@
 
 @media screen and (max-width: 320px) {
    .places__paragraph {
-      padding: 0;
-      border: 1px solid #000;
+      padding: 50px 16px 0;
    }
 }

@@ -1,7 +1,22 @@
 .footer {
-    margin: 0 auto;
-    position: relative;
+    color: #fff;
+    margin: 92px auto 0;
+    padding: 0;
     max-width: 1184px;
+    font-size: 14px;
+    line-height: 24px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
+
+@media screen and (max-width: 320px) {
+    .footer {
+        padding-left: 16px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
