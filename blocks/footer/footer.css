@@ -1,7 +1,7 @@
 .footer {
     color: #fff;
-    margin: 92px auto 0;
-    padding: 0;
+    margin: 0 auto;
+    padding: 92px 48px 24px;
     max-width: 1184px;
     font-size: 14px;
     line-height: 24px;
@@ -10,8 +10,16 @@
     justify-content: space-between;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1023px) {
     .footer {
+        padding: 88px 16px 24px;
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer {
+        min-width: 186px;
         padding-left: 16px;
         display: flex;
         flex-direction: column;
