@@ -1,4 +1,4 @@
-.baikal__text-block_title {
+.baikal__title {
     font-size: 72px;
     font-weight: 900;
     text-align: center;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 767px) {
-    .baikal__text-block_title {
+    .baikal__title {
         font-size: 32px;
         line-height: 35px;
     }
