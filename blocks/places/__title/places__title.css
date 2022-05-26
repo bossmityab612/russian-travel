@@ -2,19 +2,24 @@
     margin: 0;
     max-width: 460px;
     grid-area: places__title;
-    font: normal 900 72px/76px 'Inter';
+    font-family: 'Inter', serif;
+    font-size: 72px;
+    line-height: 76px;
+    font-weight: 900;
 } 
 
 @media screen and (max-width: 1023px) {
     .places__title {
-        font: normal 900 42px/46px 'Inter';
+        font-size: 42px;
+        line-height: 46px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .places__title {
-        font: normal 900 32px/35px 'Inter';
-        margin: 0;
+        font-size: 32px;
+        line-height: 35px;
+        margin: 0 0 32px;
         padding: 0 16px;
     }
 }

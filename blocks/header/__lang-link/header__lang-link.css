@@ -10,7 +10,7 @@
 }
 
 .header__lang-link:hover {
-    text-decoration: underline;
+    opacity: .7;
 }
 
 @media screen and (max-width: 320px) {

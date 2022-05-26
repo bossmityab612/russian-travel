@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 16px;
-    margin: 92px auto;
+    margin: 0 auto 92px;
     max-width: 1184px;
 }
 
@@ -20,6 +20,7 @@
         grid-template-columns: repeat(2, 1fr);
         max-width: 720px;
         margin: auto 24px;
+        gap: 16px;
     }
 }
 
@@ -27,5 +28,6 @@
     .photo-grid {
         grid-template-columns: repeat(1, 1fr);
         margin: auto 16px;
+        gap: 12px;
     }
 }

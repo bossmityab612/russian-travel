@@ -1,9 +1,9 @@
 .intro {
     max-width: 690px;
-    margin: 0 auto;
+    margin: 92px 0;
     color: #fff;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: flex-start;
     flex-direction: column;
     padding: 0;
@@ -11,18 +11,17 @@
 
 @media screen and (max-width: 1023px) {
     .intro {
-        padding: 24px;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .intro {
-        padding: 24px;
+        padding: 0 24px;
+        margin: 88px 0;
+        max-width: 720px;
+        display: flex;
+        align-items: start;
     }
 }
 
 @media screen and (max-width: 320px) {
     .intro {
         padding: 16px;
+        margin: 64px 0;
     }
 }

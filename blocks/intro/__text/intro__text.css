@@ -10,6 +10,15 @@
     .intro__text {
         max-width: 720px;
         padding: 0;
+        margin: 40px auto 33px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro__text {
+        max-width: 720px;
+        padding: 0;
+        margin: 40px auto 34px;
     }
 }
 

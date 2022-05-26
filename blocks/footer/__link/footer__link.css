@@ -4,5 +4,6 @@
 }
 
 .footer__link:hover {
-    opacity: .6;
+    opacity: .8;
+    /* border: 1px solid red; */
 }
