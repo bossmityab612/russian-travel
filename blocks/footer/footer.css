@@ -3,8 +3,6 @@
     margin: 0 auto;
     padding: 92px 48px 24px;
     max-width: 1184px;
-    font-size: 14px;
-    line-height: 24px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -12,14 +10,17 @@
 
 @media screen and (max-width: 1023px) {
     .footer {
-        padding: 88px 16px 24px;
-        max-width: 928px;
+        padding: 88px 14px 24px;
+        margin: 0;
+        display: flex;
     }
 }
 
 @media screen and (max-width: 767px) {
     .footer {
-        min-width: 186px;
+        max-width: 320px;
+        margin: 0;
+        padding-top: 64px;
         padding-left: 16px;
         display: flex;
         flex-direction: column;
