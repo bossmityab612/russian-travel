@@ -3,7 +3,7 @@
   margin-bottom: 80px;
   width: 100%;
   display: grid;
-  gap: 48px 40px;
+  grid-gap: 48px 40px;
   grid-template-areas: 
       'places__title places__website-block'
       'places__image places__description';
@@ -21,9 +21,8 @@
   .places__item {
     padding: auto 20px;
     margin-bottom: 73px;
-    gap: 48px 32px;
+    grid-gap: 48px 32px;
     width: 100%;
-    /* border: 1px solid red; */
   }
 
   .places__item:first-child {
@@ -58,6 +57,6 @@
 
 @media screen and (max-width: 320px) {
   .places__item {
-    gap: 48px 32px;
+    grid-gap: 48px 32px;
   }
 }

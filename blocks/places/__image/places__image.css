@@ -1,6 +1,17 @@
 .places__image {
-    width: 100%;
-    /* max-width: 460px; */
+    width: 440px;
     object-fit: cover;
     grid-area: places__image;
+}
+
+@media screen and (max-width: 1023px) {
+    .places__image {
+        width: 340px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .places__image {
+        width: 100%;
+    }
 }
