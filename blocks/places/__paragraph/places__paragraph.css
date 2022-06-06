@@ -1,6 +1,9 @@
 .places__paragraph {
    margin: 0;
-   font: 400 18px/29.34px 'Inter';
+   font-family: 'Inter', serif;
+   font-size: 18px;
+   line-height: 29.34px;
+   font-weight: 400;
 }
 
 .places__paragraph:first-child {
