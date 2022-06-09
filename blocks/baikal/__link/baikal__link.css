@@ -17,12 +17,12 @@
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: #2A2C2F; 
+    background-color: #2A2C2F;
     opacity: .3;
     z-index: 2;
 }
 
 .baikal__link:hover::before {
-    background-color: #2A2C2F; 
+    background-color: #2A2C2F;
     opacity: .7;
 }
