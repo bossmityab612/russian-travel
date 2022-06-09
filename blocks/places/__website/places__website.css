@@ -1,8 +1,12 @@
 .places__website {
   color: inherit;
-  font: normal 400 12px/22px 'Inter';
+  font-family: 'Inter', serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
 }
 
 .places__website:hover {
   opacity: .7;
 }
+

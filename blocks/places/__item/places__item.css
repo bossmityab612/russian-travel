@@ -43,20 +43,14 @@
       'places__description';
     width: 100%;
     margin-top: 50px;
-    /* gap: 48px 28px; */
+    grid-gap: 0 0;
   }
 
   .places__item:first-child {
-    margin: 92px auto 80px;
+    margin: 64px auto 80px;
   }
   
   .places__item:last-child {
-    margin: 80px auto 92px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .places__item {
-    grid-gap: 48px 32px;
+    margin: 80px auto 70px;
   }
 }
