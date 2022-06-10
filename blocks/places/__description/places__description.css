@@ -3,11 +3,16 @@
     margin: 0;
     padding: 0;
     width: 100%;
-    font: normal 400 18px/29.34px 'Inter';
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 29.34px;
+    font-weight: 400;
 }
  
 @media screen and (max-width: 767px) {
     .places__description {
-        font: normal 400 16px/26.08px 'Inter';
+        font-size: 16px;
+        line-height: 26.08px;
+        padding-top: 32px;
     }  
 }

@@ -1,6 +1,6 @@
 .places__item {
   color: #fff;
-  margin-bottom: 80px;
+  margin: 80px auto;
   width: 100%;
   display: grid;
   grid-gap: 48px 40px;
@@ -10,28 +10,28 @@
 }
 
 .places__item:first-child {
-  margin: 92px auto 80px;
+  margin-top: 92px;
 }
 
 .places__item:last-child {
-  margin: 80px auto 92px;
+  margin-bottom: 92px;
 }
 
 @media screen and (max-width: 1023px) {
   .places__item {
-    padding: auto 20px;
-    margin-bottom: 73px;
+    padding: 0 20px;
+    margin: 73px auto;
     grid-gap: 48px 32px;
     width: 100%;
   }
 
   .places__item:first-child {
-    margin: 88px auto 73px;
+    margin-top: 88px;
   }
   
   .places__item:last-child {
-    margin: 73px auto 90px;
-  }
+    margin-bottom: 90px;
+  } 
 }
 
 @media screen and (max-width: 767px) {
@@ -42,15 +42,15 @@
       'places__image'
       'places__description';
     width: 100%;
-    margin-top: 50px;
+    margin: 50px auto;
     grid-gap: 0 0;
   }
 
   .places__item:first-child {
-    margin: 64px auto 80px;
+    margin-top: 64px;
   }
   
   .places__item:last-child {
-    margin: 80px auto 70px;
+    margin-bottom: 66px;
   }
 }
