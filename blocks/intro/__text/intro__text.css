@@ -1,25 +1,23 @@
 .intro__text {
     max-width: 720px;
+    font-family: 'Intro', Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 26.08px;
     font-weight: 400;
     padding: 0;
+    margin: 40px 0;
 }
 
 @media screen and (max-width: 767px) {
     .intro__text {
-        max-width: 720px;
-        padding: 0;
         margin: 40px auto 33px;
     }
 }
 
-@media screen and (max-width: 320px) {
+/* @media screen and (max-width: 320px) {
     .intro__text {
-        max-width: 720px;
-        padding: 0;
         margin: 40px auto 34px;
     }
-}
+} */
 
 

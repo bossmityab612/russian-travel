@@ -1,12 +1,12 @@
 .places__website {
   color: inherit;
-  font-family: 'Inter', serif;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 22px;
 }
 
 .places__website:hover {
-  opacity: .7;
+  opacity: .8;
 }
 

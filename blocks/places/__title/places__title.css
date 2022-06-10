@@ -2,7 +2,7 @@
     margin: 0;
     max-width: 460px;
     grid-area: places__title;
-    font-family: 'Inter', serif;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-size: 72px;
     line-height: 76px;
     font-weight: 900;

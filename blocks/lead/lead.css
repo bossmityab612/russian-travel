@@ -5,13 +5,20 @@
     flex-direction: column;
     flex-wrap: wrap;
     word-wrap: normal;
+    align-content: center;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1280px) {
     .lead {
         max-width: 928px;
         margin: 48px auto 0;
-        align-items: center;
     }
 }
+
+    /* @media screen and (max-width: 1023px) {
+        .lead {
+            max-width: 928px;
+            margin: 48px auto 0;
+        }
+    } */
 

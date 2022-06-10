@@ -1,8 +1,4 @@
 .page {
      margin: 0 auto;
-     background-color: #2A2C2F;
-     font-family: 'Inter', sans-serif;
-     font-weight: normal;
-     text-rendering: optimizeLegibility;
      min-width: 320px;
 }

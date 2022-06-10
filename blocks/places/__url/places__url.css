@@ -1,7 +1,10 @@
 .places__url {
     margin: 0 0 12px;
     color: #aaa;
-    font: normal 400 12px/12px 'Inter';
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    line-height: 12px;
+    font-size: 12px;
+    font-weight: 400;
     letter-spacing: 2px;
 }
 
