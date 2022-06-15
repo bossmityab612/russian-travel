@@ -6,10 +6,9 @@
 
 @media screen and (max-width: 1280px) {
     .places__image {
-        max-width: 440px;
+        width: auto;
     }
 }
-
 
 @media screen and (max-width: 1023px) {
     .places__image {
@@ -20,5 +19,7 @@
 @media screen and (max-width: 767px) {
     .places__image {
         max-width: 767px;
+        display: block;
+        width: 100%;
     }
 }

@@ -1,7 +1,8 @@
 .places__item {
   color: #fff;
   margin: 80px auto;
-  width: 100%;
+  padding: 0;
+  width: auto;
   display: grid;
   grid-gap: 48px 40px;
   grid-template-areas: 
@@ -19,10 +20,9 @@
 
 @media screen and (max-width: 1023px) {
   .places__item {
-    padding: 0 20px;
     margin: 73px auto;
+    padding: 0 20px;
     grid-gap: 48px 32px;
-    width: 100%;
   }
 
   .places__item:first-child {
@@ -41,8 +41,8 @@
       'places__website-block'
       'places__image'
       'places__description';
-    width: 100%;
     margin: 50px auto;
+    padding: 0;
     grid-gap: 0 0;
   }
 
@@ -51,6 +51,6 @@
   }
   
   .places__item:last-child {
-    margin-bottom: 66px;
+    margin-bottom: 41px;
   }
 }

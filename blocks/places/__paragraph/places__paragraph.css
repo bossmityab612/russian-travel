@@ -7,7 +7,14 @@
 }
 
 .places__paragraph:first-child {
-   margin-bottom: 27px;
+   padding-bottom: 27px;
+}
+
+@media screen and (max-width: 1023px) {
+   .places__paragraph {
+      font-size: 16px;
+      line-height: 1.6;
+   }
 }
 
 @media screen and (max-width: 767px) {
@@ -15,14 +22,8 @@
       margin: 0;
       padding: 0 16px 0;
    }
-
+   
    .places__paragraph:first-child {
-      margin-bottom: 32px;
-   }
-}
-
-@media screen and (max-width: 320px) {
-   .places__paragraph {
-      padding: 0 16px;
+      padding: 0 16px 25px;
    }
 }
