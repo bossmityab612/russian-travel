@@ -9,11 +9,9 @@
     padding: 0;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
     .intro {
-        margin: 92px 0;
-        padding: 0 48px 0;
-        max-width: 690px;
+        max-width: 928px;
     }
 }
 
@@ -21,7 +19,6 @@
     .intro {
         padding: 0 24px;
         margin: 88px auto;
-        max-width: 928px;
         display: flex;
         align-content: center;
     }
